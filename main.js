@@ -18,7 +18,7 @@ class WeatherApp extends HTMLElement{
 		const list = this.renderList();
 
 		//prepare request
-		const key = 'acc7c51c8f25bc4a6218b0188c718cbe';
+		const key = '';
 		let val = list.value;
 		var requestStr = 'https://api.darksky.net/forecast/'+
 						  key + '/' +
